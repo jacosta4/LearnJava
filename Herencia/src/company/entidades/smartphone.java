@@ -19,12 +19,13 @@ public class smartphone extends Celular {
     String camara;
     String memoria;
 
-    public void chatear() {}
+    public void chatear() {
+        String teclasInteligentes = getTeclas();
+    }
 
     public void navegaInternet() {}
 
-    public void llamarSmartphone() {
+    public void llamar4G() {
         llamar();
-        llamar2G();
     }
 }

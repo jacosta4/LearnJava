@@ -17,10 +17,12 @@ public class Main {
         // metodos de smartphone
         miCelular.chatear();
         miCelular.navegaInternet();
+        miCelular.llamar4G();
 
         Celular celularAbuelo = new Celular();
 
         celularAbuelo.recibirLlamadas();
         celularAbuelo.llamar();
+
     }
 }
