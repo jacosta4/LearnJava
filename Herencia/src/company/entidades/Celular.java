@@ -1,6 +1,6 @@
 package company.entidades;
 
-public class Celular {
+public abstract class Celular {
 
     private String teclas;
     private String numero;
@@ -30,6 +30,8 @@ public class Celular {
     }
 
     public void recibirLlamadas() {}
+
+    public abstract void cargarBateriaAbstracta();
 
 
 }
