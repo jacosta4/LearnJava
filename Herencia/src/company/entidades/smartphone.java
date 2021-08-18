@@ -28,4 +28,8 @@ public class smartphone extends Celular {
     public void llamar4G() {
         llamar();
     }
+
+    public void cargarBateriaAbstracta() {
+        cargarBateria();
+    }
 }

@@ -31,6 +31,9 @@ public abstract class Celular {
 
     public void recibirLlamadas() {}
 
+    public void cargarBateria() {}
+
+    // metodo abstracto:
     public abstract void cargarBateriaAbstracta();
 
 

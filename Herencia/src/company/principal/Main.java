@@ -19,10 +19,10 @@ public class Main {
         miCelular.navegaInternet();
         miCelular.llamar4G();
 
-        Celular celularAbuelo = new Celular();
+        // Celular celularAbuelo = new Celular();
 
-        celularAbuelo.recibirLlamadas();
-        celularAbuelo.llamar();
+        // celularAbuelo.recibirLlamadas();
+        // celularAbuelo.llamar();
 
     }
 }
